@@ -16,10 +16,10 @@ env:
 
     - UDAGRAM_REVERSEPROXY_IMAGE_NAME=udagram-reverseproxy
 
-    - TAG=v1
+    - TAG=v2
 
 script:
-  - docker-compose -f ./docker-compose-build.yaml build --parallel
+  - docker-compose -f ./deployment/docker/docker-compose-build.yaml build --parallel
 
   - docker tag $UDAGRAM_API_FEED_IMAGE_NAME $DOCKER_USERNAME/$UDAGRAM_API_FEED_IMAGE_NAME:$TAG
 

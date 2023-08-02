@@ -43,3 +43,14 @@ venv/
 udagram-api-feed/.env
 udagram-api-user/.env
 set_env.sh
+terraform/.terraform.lock.hcl
+terraform/main.tf
+terraform/solution.plan
+terraform/terraform.tfstate
+terraform/terraform.tfvars
+terraform/variables.tf
+terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.10.0/windows_386/terraform-provider-aws_v5.10.0_x5.exe
+terraform/.terraform/providers/registry.terraform.io/hashicorp/http/3.4.0/windows_386/terraform-provider-http_v3.4.0_x5.exe
+deployment/k8s/env-secret.yaml
+deployment/k8s/env-configmap.yaml
+deployment/k8s/aws-secret.yaml
